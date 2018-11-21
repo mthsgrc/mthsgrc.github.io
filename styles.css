@@ -1,7 +1,8 @@
 
 /* GLOBAL STYLES */
 a {
-    color: red;
+		color: #ff0000;
+    /*color: red;*/
 }
 
 div.bio-box {
@@ -20,5 +21,6 @@ div.bio-box {
 
 /* SOCIAL STYLES */
 .social-link {
+	background: rgba(150, 150, 150, 1);
 	color: blue;
 }
