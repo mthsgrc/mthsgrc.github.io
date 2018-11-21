@@ -4,6 +4,9 @@ a {
     color: red;
 }
 
+div {
+	border: 1px solid green;
+}
 
 /* BIO STYLES */
 .bio-box {
