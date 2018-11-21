@@ -1,29 +1,11 @@
-a {
-	color: red;
-}
+      a {
+          color: red;
+      }
 
-#exec-bio {
-	background-color: lightgray;
+      .bio-box {
+          border: 1px solid black;
+      }
 
-}
-
-#bio-header {
-	background-color: orange;
-}
-
-.bio-box {
-	border: 1px solid black;
-	width: 50%;
-}
-
-.bio-box a {
-	color: green;
-}
-
-.alert {
-	background-color: purple;
-}
-
-#exec-bio .alert {
-	background-color: purple;
-}
+      .bio-box a {
+          color: green;
+      }
