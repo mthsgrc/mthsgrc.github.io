@@ -5,3 +5,7 @@ div {
 a {
 	color: purple;
 }
+
+div a {
+	color: green;
+}
