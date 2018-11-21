@@ -9,3 +9,8 @@ a {
 div a {
 	color: green;
 }
+
+li a {
+	border: 1px solid black;	
+	color: brown;
+}
