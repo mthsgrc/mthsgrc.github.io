@@ -7,10 +7,18 @@ a {
 
 }
 
+#bio-header {
+	background-color: orange;
+}
+
 .bio-box {
 	border: 1px solid black;
 }
 
 .bio-box a {
 	color: green;
+}
+
+.azure-backg {
+	background-color: azure;
 }
