@@ -1,16 +1,16 @@
-div {
+a {
+	color: red;
+}
+
+#exec-bio {
+	background-color: lightgray;
+
+}
+
+.bio-box {
 	border: 1px solid black;
 }
 
-a {
-	color: purple;
-}
-
-div a {
+.bio-box a {
 	color: green;
-}
-
-li a {
-	border: 1px solid black;	
-	color: brown;
 }
