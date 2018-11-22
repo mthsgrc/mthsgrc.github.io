@@ -8,6 +8,19 @@ div.bio-box {
     border: 1px solid #0f0;
 }
 
+/* HERO STYLES */
+
+.full-hero {
+	height: 50vh;
+	background: #c7dbfc; 
+}
+
+/* SOCIAL STYLES */
+.social-link {
+    background: rgba(150, 150, 150, 0.5);
+    color: #00f;
+}
+
 /* BIO STYLES */
 
 .bio-wrapper {
@@ -36,9 +49,3 @@ div.bio-box {
 
 }
 
-
-/* SOCIAL STYLES */
-.social-link {
-    background: rgba(150, 150, 150, 0.5);
-    color: #00f;
-}
