@@ -41,7 +41,7 @@ h1 {
     text-align: center;
 }
 
-.social-list > li {
+.social-list>li {
     display: inline-block
 }
 
@@ -74,12 +74,16 @@ h1 {
     /*padding: 2.5em;*/
 }
 
+.bio-box img {
+    width: 100%;
+}
+
 .bio-box h3 {
     font-size: 1.5rem;
 }
 
-.bio.box > a {
-	color: #c68bf9;
+.bio.box>a {
+    color: #c68bf9;
 }
 
 .bio-copy {
