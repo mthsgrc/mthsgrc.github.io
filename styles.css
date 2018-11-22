@@ -1,26 +1,26 @@
 
 /* GLOBAL STYLES */
 a {
-		color: #ff0000;
+		color: rgba(255, 0, 0, 0.2);
     /*color: red;*/
 }
 
 div.bio-box {
-	border: 1px solid green;
+	border: 1px solid #0f0;
 }
 
 /* BIO STYLES */
 .bio-box {
-    border: 1px solid black;
+    border: 1px solid #000;
 }
 
 .bio-copy a {
-    color: green;
+    color: #0f0;
 }
 
 
 /* SOCIAL STYLES */
 .social-link {
 	background: rgba(150, 150, 150, 0.5);
-	color: blue;
+	color: #00f;
 }
