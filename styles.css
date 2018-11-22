@@ -20,6 +20,7 @@ h1 {
 .full-hero {
     background: #c7dbfc;
     height: 50vh;
+
 }
 
 .full-hero li {
@@ -30,10 +31,19 @@ h1 {
 .social-link {
     background: rgba(150, 150, 150, 0.5);
     border-radius: 99px;
-    color: #00f;
+    box-sizing: border-box;
+    color: #fff;
     display: inline-block;
-    height: 36px;
-    width: 36px;
+    font-family: helvetica, arial, sans;
+    font-size: 1rem;
+    font-weight: bold;
+    height: 2.5em;
+    line-height: 1;
+    padding-top: 0.85em;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 2.5em;
 }
 
 .social-list {
@@ -43,8 +53,7 @@ h1 {
 }
 
 .social-list>li {
-    display: inline-block
-    margin: 0 0.5em;
+    display: inline-block margin: 0 0.5em;
 }
 
 /* BIO STYLES */
@@ -83,7 +92,7 @@ h1 {
 }
 
 .bio-box h3 {
-		color: #fff;
+    color: #fff;
     font-size: 1.5rem;
     margin: -40px 0 1em;
     text-align: center;
