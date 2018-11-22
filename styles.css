@@ -37,19 +37,21 @@ h1 {
 /* BIO STYLES */
 
 .bio-wrapper {
+		background-color: #c0e0c3;
     font-size: 24px;
-    /*overflow: hidden;*/
+    height: 300px;
+    overflow: hidden;
     /*width: 500px;*/
 }
 
-.bio-wrapper:after {
+/*.bio-wrapper:after {
   visibility: hidden;
   display: block;
   font-size: 0;
   content: " ";
   clear: both;
   height: 0;
-}
+}*/
 
 .bio-box {
     border: 1px solid #000;
