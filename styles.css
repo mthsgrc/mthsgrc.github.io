@@ -1,37 +1,39 @@
-
 /* GLOBAL STYLES */
 a {
-		color: rgba(255, 0, 0, 0.2);
+    color: rgba(255, 0, 0, 0.2);
     /*color: red;*/
 }
 
 h2 {
-	font-size: 30px;
+    font-size: 30px;
 }
 
 div.bio-box {
-	border: 1px solid #0f0;
+    border: 1px solid #0f0;
 }
 
 /* BIO STYLES */
 
 .bio-wrapper {
-	width: 500px;
+    width: 500px;
 }
 
 .bio-box {
     border: 5px solid #000;
     width: 50%;
-
+    font-size: 1em;
+    padding: 2.5em;
 }
 
 .bio-copy a {
     color: #0f0;
+    font-size: 1em;
+
 }
 
 
 /* SOCIAL STYLES */
 .social-link {
-	background: rgba(150, 150, 150, 0.5);
-	color: #00f;
+    background: rgba(150, 150, 150, 0.5);
+    color: #00f;
 }
