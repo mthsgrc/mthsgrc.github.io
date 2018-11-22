@@ -38,6 +38,7 @@ h1 {
 
 .bio-wrapper {
     font-size: 24px;
+    overflow: hidden;
     /*width: 500px;*/
 }
 
