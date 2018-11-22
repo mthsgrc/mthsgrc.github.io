@@ -50,6 +50,8 @@ h1 {
 .bio-wrapper {
     background-color: #c0e0c3;
     font-size: 24px;
+    margin: auto;
+    max-width: 960px;
     overflow: hidden;
     /*width: 500px;*/
 }
@@ -79,7 +81,10 @@ h1 {
 }
 
 .bio-box h3 {
+		color: #fff;
     font-size: 1.5rem;
+    margin: -40px 0 1em;
+    text-align: center;
 }
 
 .bio.box>a {
