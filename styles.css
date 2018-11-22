@@ -38,8 +38,17 @@ h1 {
 
 .bio-wrapper {
     font-size: 24px;
-    overflow: hidden;
+    /*overflow: hidden;*/
     /*width: 500px;*/
+}
+
+.bio-wrapper:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
 }
 
 .bio-box {
