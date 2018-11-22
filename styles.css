@@ -14,9 +14,14 @@ div.bio-box {
 }
 
 /* BIO STYLES */
+
+.bio-wrapper {
+	width: 500px;
+}
+
 .bio-box {
     border: 5px solid #000;
-    width: 300px;
+    width: 50%;
 
 }
 
