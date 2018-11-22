@@ -5,6 +5,10 @@ a {
     /*color: red;*/
 }
 
+h2 {
+	font-size: 30px;
+}
+
 div.bio-box {
 	border: 1px solid #0f0;
 }
@@ -12,6 +16,8 @@ div.bio-box {
 /* BIO STYLES */
 .bio-box {
     border: 1px solid #000;
+    width: 200px;
+
 }
 
 .bio-copy a {
