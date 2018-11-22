@@ -1,30 +1,23 @@
 /* GLOBAL STYLES */
-
 html,
 body {
     margin: 0;
     padding: 0;
 }
 
-a {
-    color: rgba(255, 0, 0, 0.2);
-    /*color: red;*/
-}
-
 h1 {
+    font-size: 7vw;
     margin-top: 0;
 }
 
-/* HERO STYLES */
-
-.full-hero {
-    background: #c7dbfc;
-    height: 50vh;
-
+a {
+    color: #f00;
 }
 
-.full-hero li {
-    display: inline;
+/* HERO STYLES */
+.full-hero {
+    background-color: #c7dbfc;
+    height: 50vh;
 }
 
 /* SOCIAL STYLES */
@@ -53,61 +46,45 @@ h1 {
 }
 
 .social-list>li {
-    display: inline-block margin: 0 0.5em;
+    display: inline-block;
+    margin: 0 0.5em;
 }
 
 /* BIO STYLES */
-
 .bio-wrapper {
-    background-color: #c0e0c3;
     font-size: 24px;
-    margin: 0 auto 20px;
+    margin: auto;
     max-width: 960px;
     overflow: hidden;
-    /*width: 500px;*/
 }
 
-/*.bio-wrapper:after {
-  visibility: hidden;
-  display: block;
-  font-size: 0;
-  content: " ";
-  clear: both;
-  height: 0;
-}*/
-
 .bio-box {
-    border: 1px solid #000;
+    border: 1px solid black;
+    border-color: black black red;
     box-sizing: border-box;
     float: left;
     font-size: 1rem;
     margin: 40px 1% 0;
-    padding: 2%;
+    padding: 0 2% 2%;
     width: 23%;
-    /*padding: 2.5em;*/
+}
+
+.bio-box h3 {
+    color: #fff;
+    font-size: 1.5em;
+    margin: -40px 0 1em;
+    text-align: center;
 }
 
 .bio-box img {
     width: 100%;
 }
 
-.bio-box h3 {
-    color: #fff;
-    font-size: 1.5rem;
-    margin: -40px 0 1em;
-    text-align: center;
-}
-
-.bio.box>a {
-    color: #c68bf9;
-}
-
 .bio-copy {
     font-size: 1em;
+    line-height: 1.5;
 }
 
 .bio-copy a {
-    color: #0f0;
-    /*font-size: 1em;*/
-
+    color: green;
 }
