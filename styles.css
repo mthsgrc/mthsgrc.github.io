@@ -1,8 +1,9 @@
 /* GLOBAL STYLES */
 
-html, body {
-	margin: 0;
-	padding: 0;
+html,
+body {
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -11,18 +12,18 @@ a {
 }
 
 h1 {
-	margin-top: 0;
+    margin-top: 0;
 }
 
 /* HERO STYLES */
 
 .full-hero {
-	background: #c7dbfc; 
-	height: 50vh;
+    background: #c7dbfc;
+    height: 50vh;
 }
 
 .full-hero li {
-	display: inline;
+    display: inline;
 }
 
 /* SOCIAL STYLES */
@@ -34,10 +35,20 @@ h1 {
     width: 36px;
 }
 
+.social.list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social.list>li {
+    display: inline-block
+}
+
 /* BIO STYLES */
 
 .bio-wrapper {
-		background-color: #c0e0c3;
+    background-color: #c0e0c3;
     font-size: 24px;
     overflow: hidden;
     /*width: 500px;*/
@@ -66,6 +77,10 @@ h1 {
     font-size: 1.5rem;
 }
 
+.bio.box > a {
+	color: #c68bf9;
+}
+
 .bio-copy {
     font-size: 1em;
 }
@@ -75,4 +90,3 @@ h1 {
     /*font-size: 1em;*/
 
 }
-
