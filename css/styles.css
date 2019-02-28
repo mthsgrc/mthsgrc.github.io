@@ -479,11 +479,12 @@ html {
 }
 
 .post-header img,
-.post-header .social-link {
+.post-header .social-link, {
     margin-right: 0.5em;
 }
 
-.post-header img {
+.post-header img,
+.recent-img {
     border-radius: 99px;
     display: inline-block;
     height: 2.5em;
