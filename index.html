@@ -32,21 +32,39 @@ layout: default
                 We believe there are <strong>at least a billion people</strong> who can
                 benefit from learning technical sophistication, probably more. To join our
                 movement, <a href="https://learnenough.com/#email_list">sign up for our
-      official email list</a> now.
+                    official email list</a> now.
             </p>
             <h3>Background</h3>
             <p>
                 Learn Enough to Be Dangerous is an outgrowth of the
                 <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a> and the
                 <a href="http://www.softcover.io/">Softcover publishing platform</a>. This
-                page is part of the sample site for <a
-      href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
-      to Be Dangerous</em></a>, which teaches the basicics of
+                page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout
+                        to Be Dangerous</em></a>, which teaches the basicics of
                 <strong>C</strong>ascading <strong>S</strong>tyle
                 <strong>S</strong>heets, the language that
                 allows web pages to be styled. Other related tutorials can be found at
                 <a href="https://learnenough.com/">learnenough.com</a>.
             </p>
+        </div>
+    </div>
+    <div class="home-section">
+        <h4>Most recent post</h4>
+        <div class="blog-posts">
+            <header class="post-header">
+                <h2>
+                    <a href="{{ site.posts.first.url }}">
+                        {{ site.posts.first.title }}</a>
+                </h2>
+                <div class="post-byline">
+                    <img src="{{ site.posts.first.gravatar }}">
+                    <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
+                    by: {{ site.posts.first.author }}
+                    <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+                </div>
+            </header>
+            <div class="posts-image" style="background-image:url({{ site.posts.first.postHero }})"></div>
+            {{ site.posts.first.excerpt }}
         </div>
     </div>
     <div class="home-section">
@@ -62,14 +80,14 @@ layout: default
                 <img src="http://placekitten.com/g/400/400">
                 <h3>Michael Hartl</h3>
                 <a href="http://twitter.com/mhartl" class="social-link">
-        Tw
-      </a>
+                    Tw
+                </a>
                 <div class="bio-copy">
                     <p>
                         Known for his dazzling charm, rapier wit, and unrivaled humility,
                         Michael is the creator of the
                         <a href="http://railstutorial.org/">Ruby on Rails
-          Tutorial</a> and principal author of the
+                            Tutorial</a> and principal author of the
                         <a href="https://learnenough.com/"> Learn Enough to Be Dangerous</a>
                         introductory sequence.
                     </p>
@@ -77,7 +95,7 @@ layout: default
                         Michael is also notorious as the founder of
                         <a href="http://tauday.com/">Tau Day</a> and author of
                         <a href="http://tauday.com/tau-manifesto"><em>The Tau
-          Manifesto</em></a>, but rumors that he's secretly a supervillain are
+                                Manifesto</em></a>, but rumors that he's secretly a supervillain are
                         slightly exaggerated.
                     </p>
                 </div>
@@ -86,8 +104,8 @@ layout: default
                 <img src="http://placekitten.com/g/400/400">
                 <h3>Lee Donahoe</h3>
                 <a href="https://twitter.com/leedonahoe" class="social-link">
-        Tw
-      </a>
+                    Tw
+                </a>
                 <div class="bio-copy">
                     <p>
                         When he's not literally swimming with sharks or hunting powder stashes
@@ -101,8 +119,8 @@ layout: default
                 <img src="http://placekitten.com/g/400/400">
                 <h3>Nick Merwin</h3>
                 <a href="https://twitter.com/nickmerwin" class="social-link">
-        Tw
-      </a>
+                    Tw
+                </a>
                 <div class="bio-copy">
                     <p>
                         You may have seen him shredding guitar live with Capital Cities on
